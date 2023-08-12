@@ -1,7 +1,7 @@
 const express = require('express');
 
 const mongoose = require('mongoose');
-const url = "mongodb+srv://lontebangsat062:agus12345@cluster0.aalujvg.mongodb.net/agusapp"
+const url = "mongodb+srv://lontebangsat062:agus12345@cluster0.aalujvg.mongodb.net/mernapp"
 const app = express();
 const cors = require("cors")
 const port = 5000;
@@ -18,11 +18,11 @@ const studentScheme = new mongoose.Schema({
 
 })
 
-const students = mongoose.model('students',studentScheme)
+const agusapp = mongoose.model('agusapp',studentScheme)
 app.get('/student',async (req,res)=>{
     // Fetch all students from the "students" collection
     try{
-        const student = await students.find()
+        const student = await agusapp.find()
         
        res.json(student)
       
