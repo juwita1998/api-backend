@@ -4,7 +4,8 @@
   "description": "learn-mongo",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "author": "agus putrawan",
   "license": "ISC",
