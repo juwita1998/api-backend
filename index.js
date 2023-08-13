@@ -37,6 +37,8 @@ app.get('/student',async (req,res)=>{
 
 })
 
+
+app.use(express.static('./method-public'))
 app.get('/',(req,res)=>{
     res.send("hello from anjing")
 })

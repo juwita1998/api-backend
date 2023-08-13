@@ -1,0 +1,28 @@
+div{
+    text-align: center;
+      border: 1px solid black;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      background: rgb(154, 184, 177);
+     box-shadow: 0 0 6px 2px;
+     margin-top: 0.7rem;
+}
+
+button{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  height: 5vh;
+  align-items: center;
+  border: none;
+  background-color:lightgreen;
+  cursor: pointer;
+  box-shadow: 0 0 7px 3px;
+  
+}
+
+
+.show{
+  display: none;
+}
